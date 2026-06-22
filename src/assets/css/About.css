@@ -1,0 +1,104 @@
+/* Mona Sans */
+@import url("https://fonts.cdnfonts.com/css/mona-sans");
+
+.ogi-section {
+  width: 100%;
+  font-family: "Mona Sans", sans-serif;
+}
+
+/* Header */
+
+.ogi-header {
+  background: #f5f5f5;
+  padding: 35px 0;
+}
+
+.ogi-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ogi-top h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1d1d1d;
+  margin: 0;
+}
+
+.ogi-links {
+  display: flex;
+  gap: 20px;
+  color: #6c6c6c;
+  font-size: 1rem;
+}
+
+/* Blue Section */
+
+.ogi-content {
+  background: #0f4d8a;
+  min-height: 450px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.ogi-text {
+  max-width: 900px;
+  margin: auto;
+}
+
+.ogi-text p {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+  .ogi-top {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .ogi-top h1 {
+    font-size: 2.2rem;
+  }
+
+  .ogi-text p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .ogi-header {
+    padding: 25px 0;
+  }
+
+  .ogi-top h1 {
+    font-size: 1.8rem;
+  }
+
+  .ogi-links {
+    font-size: 0.9rem;
+    gap: 12px;
+  }
+
+  .ogi-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .ogi-content {
+    min-height: 350px;
+    padding: 60px 15px;
+  }
+}

@@ -9,9 +9,9 @@ function Home() {
       <Navbar />  {/* Navbar Section */}
       <div style={{ minHeight: "80vh" }}> {/* body Section */}
         <div className={mainStyles.homePage}>
-          <h1>Welcome to My Home Page</h1>
+          <h1>Welcome !</h1>
           <p>
-            This is the home page of my website. Here you can find information
+            An new Home page of my website. Here you can find information
             about me and my work.
           </p>
         </div>
